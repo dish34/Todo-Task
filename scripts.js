@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded',() =>{
             return false;
     }
     document.querySelector('#removetask').onclick = () =>{
-        var a =  document.querySelectorAll('li');
+        /*var a =  document.querySelectorAll('li');
         if(a.length == 1){
         document.querySelector('li').remove();
         document.querySelector('#removetask').disabled = true;
@@ -25,6 +25,7 @@ document.addEventListener('DOMContentLoaded',() =>{
         else
         {
             document.querySelector('li').remove();
-        }
+        }*/
+        document.querySelector('li').remove();
     }
-});
+})
